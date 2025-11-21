@@ -1,0 +1,6 @@
+[submodule "third/gpu-burn"]
+	path = third/gpu-burn
+	url = https://github.com/wilicc/gpu-burn.git
+[submodule "third/nccl-tests"]
+	path = third/nccl-tests
+	url = https://github.com/lixfz/nccl-tests.git

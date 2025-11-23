@@ -7,6 +7,13 @@
 # 构建镜像
 
 ```
+git clone --recursive https://github.com/lixfz/gpu-box.git
+cd gpu-box
 docker build -t gpu-box:01 .
 ```
 
+# 运行gpu-box
+
+```
+docker run --rm -it --gpu all gpu-box:01 bash
+```
